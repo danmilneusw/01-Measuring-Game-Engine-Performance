@@ -10,9 +10,9 @@ This week, we are looking into measuring the performance of a game engine. We wi
 - Learn some general techniques for tuning a game engine to introduce you to a new way of thinking (how could this be optimised?) and comparing the performance before and after optimisation.
 
 ## Tutorial
-1. Open up project 1 in Unity and work through the PDF tutorial **01 - The Unity Profiler: Introduction**.
-2. Keep project 1 open. Take a look at the PDF called **02 - Time Slicing**.
-3. Open up the PDF **03 - Optimisation Task**.
+1. Open up project 1 in Unity and work through **01 - The Unity Profiler Introduction.md**.
+2. Work through **02 - Time Slicing.md**.
+3. Work through **03 - Optimisation Task.md**.
 4. If there's any extra time, feel free to profile any Unity projects of your own if you have any.
 
 ## Extra Resources
