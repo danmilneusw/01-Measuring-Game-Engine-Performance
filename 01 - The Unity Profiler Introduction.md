@@ -70,7 +70,7 @@ If you'd like, you can drag the profiler to fit into the lower section, like see
   </a>
 </div>
 
-The buttons and fields shown above, from left right, allow you to:
+The buttons and fields shown above, from left to right, allow you to:
 - Select to test in Play Mode or Edit Mode. Play Mode will profile the standalone game whereas Edit Mode will include profiling of any Editor extensions ([learn more here](https://docs.unity3d.com/Packages/com.unity.test-framework@2.0/manual/edit-mode-vs-play-mode-tests.html)).
 - Set to record profiling information. Profiling won't occur unless this is selected. You can set this to off, run the game, then set this on and off at specific points to profile for specific periods of your game.
 - Move to the frame before the one currently selected.
