@@ -85,8 +85,8 @@ I recommend also enabling Deep Profile, this injects profiler instrumentation ar
 The profiler is split into Profiler Modules. The ones you'll most likely frequent are CPU Usage and GPU Usage.
 
 <div align="center">
-  <a href="Images\06 - Profiler Modules.png" target="_blank">
-    <img src="Images\06 - Profiler Modules.png" alt="Profiler Modules" style="height:500px;"/>
+  <a href="Images\01 - The Unity Profiler Introduction\06 - Profiler Modules.png" target="_blank">
+    <img src="Images\01 - The Unity Profiler Introduction\06 - Profiler Modules.png" alt="Profiler Modules" style="height:500px;"/>
   </a>
 </div>
 
@@ -152,19 +152,20 @@ As you profile more projects, you may start to notice some common occurances, su
   </a>
 </div>
 
-You may see ‘Gfx.WaitForPresent’ in the profiler and wonder why it takes up a chunk of the budget. This is a constraint imposed by the game engine. The CPU and GPU operations run in parallel, but that doesn’t mean one can’t be waiting for operations to complete on another before running. In the following example, we are CPU-bound; the GPU is waiting for the CPU to complete its operations. The GPU didn’t have the data it needed yet to be able to render the next frame and the GPU was ‘waiting’, so we went over our 32 ms budget.
+You may see ‘Gfx.WaitForPresent’ in the profiler and wonder why it takes up a chunk of the budget. This is a constraint imposed by the game engine. The CPU and GPU operations run in parallel, but that doesn’t mean one can’t be waiting for operations to complete on another before running. In the following example, we are CPU-bound; the GPU is waiting for the CPU to complete its operations and didn't receive the code needed to render the frame that need to be passed to the graphic rendering APIs. The GPU didn’t have the data it needed yet to be able to render the next frame and the GPU was ‘waiting’, causing a delay.
 
-                                                       
-|--------------------------------------------------------------------------------------------------------|</br>
-|----------------------------------------------CPU----------------------------------------------------|</br>
-|---------ENGINE CODE----------||---------YOUR CODE--------||----RENDER----|</br>
-----GPU--------||------------------------------WAIT------------------------------||--------GPU--------|</br>
+<div align="center">
+  <a href="Images\01 - The Unity Profiler Introduction\18 - CPU Bound.png" target="_blank">
+    <img src="Images\01 - The Unity Profiler Introduction\18 - CPU Bound.png" alt="CPU Bound" style="height:200px;"/>
+  </a>
+</div>
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=uXRURWwabF4">Image source</a>
+</div>
 
-RENDER: produces all the code the GPU needs to render the frame. Passes to the graphic rendering APIs on the GPU
-In this case, If you do find ‘Gfx.WaitForPresent’ is eating into your budget, consider ways to reduce the number of calls between the CPU and the GPU.
-Copying between CPU and GPU
+To prevent this, consider optimisation techniques to reduce having to pass data between the CPU and GPU (more on this another time).
 
-If we are GPU-bound, the CPU is waiting for the GPU to complete its operations.
+Alternatively, if we are GPU-bound, the CPU is waiting for the GPU to complete its operations.
 
 #### Saving and Comparing Profiling Data
 Use the original (inefficient) script and make a recording. You can save this data using the save button at the top right of the profiler if you wanted. Instead, open the Profile Analyzer at Window > Analysis > Profile Analyzer. In this tool, you can compare frames within the same recording or even compare frames between multiple recordings.
