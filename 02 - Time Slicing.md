@@ -10,6 +10,12 @@ Take the below example, we have four scripts that run every three frames. Lookin
   </a>
 </div>
 
+<div align="center">
+  <a href="Images\02 - Time Slicing\06 - Spikes.png" target="_blank">
+    <img src="Images\02 - Time Slicing\06 - Spikes.png" alt="Spikes" style="height:110px;"/>
+  </a>
+</div>
+
 In the below example, we simply shifted scripts three and four to run a frame later than scripts one and two. Assuming all four scripts require the same computation, then for some frames we just reduced the time required to run those frames by half.
 
 <div align="center">
