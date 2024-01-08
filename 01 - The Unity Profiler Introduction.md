@@ -103,9 +103,9 @@ In this screenshot, we can see the two functions from our script that are causin
   </a>
 </div>
 
-These two functions are the RotateCube and PrintRotation functions. You can see that this called 25 times (once for each cube) and that functions, like Transform.Rotate(), that we have set to run 1,000 times per frame means there is a total of 25,000 calls.
+These two functions are the RotateCube and PrintRotation functions. You can see that this is called 25 times (once for each cube) and that functions, like Transform.Rotate(), that we have set to run 1,000 times per frame, means there is a total of 25,000 calls.
 
-Change from Hierarchy view to the Timeline view. In this view, we can get a more visual representation of the hierarchy. We can even see the many sub-functions used in the PrintRotation function, such as for converting the vector information to a string and so on, just to print this information to the log.
+Change from Hierarchy view to the Timeline view. In this view, we can get a more visual representation of the hierarchy. We can even see the many sub-functions used in the PrintRotation function, such as for converting the vector information to a string and so on, just to print this information to the log. A lot happens when printing to the console, it is a very slow process.
 
 <div align="center">
   <a href="Images\01 - The Unity Profiler Introduction\14 - Viewing the Timeline.png" target="_blank">
