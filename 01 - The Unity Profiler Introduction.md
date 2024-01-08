@@ -122,7 +122,7 @@ The Profiler is split into many modules, such as:
 - Video
 - Physics
 
-I'd recommend using the GPU Usage as well, although for this scene I found GPU usage to be low. If you want to check the GPU usage, you may need to disable graphic jobs at Edit > Project Settings > Graphic Jobs.
+Sometimes you can predict that GPU usage will be low. This scene doesn't use shaders, textures, have complex shadows or do anything GPU intensive for example. Sometimes it's worth double-checking for any GPU usage you might have missed by enabling GPU usage, this does come with an overhead, so disable it after checking. As seen below, I found GPU usage in this scene to be very low. If you want to check the GPU usage, you may need to disable graphic jobs at Edit > Project Settings > Graphic Jobs.
 
 <div align="center">
   <a href="Images\01 - The Unity Profiler Introduction\15 - GPU Usage is Low.png" target="_blank">
