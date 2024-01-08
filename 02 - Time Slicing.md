@@ -24,7 +24,7 @@ In the below example, we simply shifted scripts three and four to run a frame la
   </a>
 </div>
 
-Some scripts may be low priority than other scripts. In the case below, we only needed to run the fourth script every six frames rather than every three frames, saving further computation.
+Some scripts may be lower priority than other scripts. In the case below, we only needed to run the fourth script every six frames rather than every three frames, saving further computation.
 
 <div align="center">
   <a href="Images\02 - Time Slicing\03 - Time Slicing.png" target="_blank">
