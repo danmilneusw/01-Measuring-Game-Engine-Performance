@@ -220,7 +220,7 @@ public class InefficientCubeRotation : MonoBehaviour
 }
 ```
 
-Go back to the Profile Analyzer and pull this data using the red button. You will now be able to compare the performance differences side by side. Below, you can see how much longer the player loop runs for when using the inefficient script.
+Go back to the Profile Analyzer and pull this data using the red button. You will now be able to compare the performance differences side by side. Below, you can see how much longer the player loop runs when using the inefficient script.
 
 <div align="center">
   <a href="Images\01 - The Unity Profiler Introduction\16 - Profile Analyser.png" target="_blank">
