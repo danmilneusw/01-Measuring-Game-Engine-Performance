@@ -79,7 +79,7 @@ The buttons and fields shown above, from left right, allow you to:
 - See the number of the current frame out of the total frames recorded.
 - Clear the profiling data.
 
-I recommend also enabling Deep Profile, this injects profiler instrumentation around every script method to record all function calls. Without this enabled, you will be able to profile to the script only, but with it enabled you will be able to see the time spent on specific functions within that scripts.
+I recommend also enabling Deep Profile, this injects profiler instrumentation around every script method to record all function calls. Without this enabled, you will be able to profile to the script only, but with it enabled you will be able to see the time spent on specific functions within that script.
 
 #### Profiler Modules
 The profiler is split into Profiler Modules. The ones you'll most likely frequent are CPU Usage and GPU Usage.
