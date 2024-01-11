@@ -23,3 +23,12 @@ This week, we are looking into measuring the performance of a game engine. We wi
 - [Creating two buckets to split script execution over different frames](https://thegamedev.guru/unity-performance/cpu-slicing-secrets/)
 - [Optimized computation with delayed result gathering](https://allenchou.net/2021/05/time-slicing/)
 - [Time slicing demo in Unity](https://medium.com/@arnaud.jamin/a-simple-way-to-distribute-game-updates-over-multiple-frames-ba0718dbd5cd#.o10kmuunl)
+
+## Contact
+Feel free to conctact if you have any questions.
+
+Remove the spaces for the actual email address. Sorry, I had to do this to prevent it being scraped.
+
+Contact address:
+
+daniel milne 98</br>@ outlook.com
