@@ -17,6 +17,7 @@ This week, we are looking into measuring the performance of a game engine. We wi
 
 ## Extra Resources
 ### Profiling
+- [Profiling in Unity - Profiling in Unity 2021 LTS: What, when, and how](https://blog.unity.com/engine-platform/profiling-in-unity-2021-lts-what-when-and-how)
 - [Profiling in PyGame](https://www.pygame.org/wiki/Profiling?parent=CookBook%3Cbr%3E)
 
 ### Time Slicing
