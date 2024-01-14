@@ -17,7 +17,16 @@ This week, we are looking into measuring the performance of a game engine. We wi
 
 ## Extra Resources
 ### Profiling
+#### Unity
+- [Profiler overview](https://docs.unity3d.com/Manual/Profiler.html)
 - [Profiling in Unity - Profiling in Unity 2021 LTS: What, when, and how](https://blog.unity.com/engine-platform/profiling-in-unity-2021-lts-what-when-and-how)
+- [Introduction to profiling in Unity | Unite Now 2020](https://www.youtube.com/watch?v=uXRURWwabF4)
+
+#### Unreal Engine 5
+- [New Features of Insights: Unreal Engine's Built In Profiling Tools | Inside Unreal](https://www.youtube.com/watch?v=af_M38Z325I)
+- [Testing and Optimizing Your Content](https://docs.unrealengine.com/5.3/en-US/testing-and-optimizing-your-content/)
+
+#### PyGame
 - [Profiling in PyGame](https://www.pygame.org/wiki/Profiling?parent=CookBook%3Cbr%3E)
 
 ### Time Slicing
