@@ -30,8 +30,8 @@ This week, we are looking into measuring the performance of a game engine. We wi
 - [Profiling in PyGame](https://www.pygame.org/wiki/Profiling?parent=CookBook%3Cbr%3E)
 
 ### Time Slicing
-- [Creating two buckets to split script execution over different frames](https://thegamedev.guru/unity-performance/cpu-slicing-secrets/)
-- [Optimized computation with delayed result gathering](https://allenchou.net/2021/05/time-slicing/)
+- [Creating two buckets to split script execution over different frames](https://thegamedev.guru/unity-performance/cpu-slicing-secrets/) ⭐
+- [Optimized computation with delayed result gathering](https://allenchou.net/2021/05/time-slicing/) ⭐
 - [Time slicing demo in Unity](https://medium.com/@arnaud.jamin/a-simple-way-to-distribute-game-updates-over-multiple-frames-ba0718dbd5cd#.o10kmuunl)
 
 ## Contact
