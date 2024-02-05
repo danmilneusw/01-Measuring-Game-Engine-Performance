@@ -7,6 +7,7 @@ This week, we are looking into measuring the performance of a game engine. We wi
 ## Summary
 - Understand 'performance budget'.
 - Understand how to use the Unity Profiler to be able to understand the game engine operations behind-the-scenes.
+- Learn time-slicing
 - Learn some general techniques for tuning a game engine to introduce you to a new way of thinking (how could this be optimised?) and comparing the performance before and after optimisation.
 
 ## Tutorial
